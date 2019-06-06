@@ -1,12 +1,12 @@
 # dp-llm
 
 
-This repository contains an implementation of __Interpretable and Differentially Private Predictions__. The paper is available at https://arxiv.org/abs/1906.02004 
+This repository contains an implementation of __Interpretable and Differentially Private Predictions__. The paper by [Frederik Harder](https://ei.is.tuebingen.mpg.de/person/fharder), [Matthias Bauer](https://ei.is.tuebingen.mpg.de/person/bauer) and [Mijung Park](https://ei.is.mpg.de/~mpark) is available at https://arxiv.org/abs/1906.02004 
 
 ## Setup
 
 - The LLM Mnist model is ready to use.
-- user friendly scripts for reproduction of experimental results on Mnist and Fashion-Mnist coming soon. 
+- User friendly scripts for reproduction of experimental results on Mnist and Fashion-Mnist coming soon. 
 
 ### Dependencies
     python 3.6
@@ -35,4 +35,4 @@ This repository contains an implementation of __Interpretable and Differentially
 - `ma_main.py` provides an interface to call the moments calculation functions
 
 
-If you have any questions or comments, please don't hesitate to contact [Frederik Harder](https://ei.is.tuebingen.mpg.de/employees/fharder).
+If you have any questions or comments, please don't hesitate to contact [Frederik Harder](https://ei.is.tuebingen.mpg.de/person/fharder).
