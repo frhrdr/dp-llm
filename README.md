@@ -24,10 +24,12 @@ This repository contains an implementation of __Interpretable and Differentially
 - `llm_mnist_main.py` can be called to train LLM models on Mnist and Fashion-Mnist
 - `mnist_cnn.py` contains and trains the reference CNN model used in the paper
 - `utils.py` contains various utility functions.
+
 `src/model_eval/` contains scripts used for generating the graphs and visualizations shown in the paper
 - `filter_visualization.py`
 - `gradient_attribution.py`
 - `params_vs_accuracy.py`
+
 `src/moments_accountant/` contains the code used for computing the privacy guarantee epsilon values, given a specific delta and sigma. 
 - `moments_accountant.py` is taken from repository `https://github.com/tensorflow/models/tree/master/research/differential_privacy` which was uploaded by Abadi et al. and which has since been removed
 - `ma_main.py` provides an interface to call the moments calculation functions
