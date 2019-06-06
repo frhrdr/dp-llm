@@ -25,15 +25,14 @@ This repository contains an implementation of __Interpretable and Differentially
 - `mnist_cnn.py` contains and trains the reference CNN model used in the paper
 - `utils.py` contains various utility functions.
 
-`src/model_eval/` contains scripts used for generating the graphs and visualizations shown in the paper
-- `filter_visualization.py`
-- `gradient_attribution.py`
-- `params_vs_accuracy.py`
+`src/model_eval/` contains scripts used for generating the Mnist graphs and visualizations shown in the paper
+- `filter_visualization.py` generates all filter visualizations for LLMs (Fig. 3-5)
+- `gradient_attribution.py` generates SmoothGrad and Integrated Gradient attributions for a reference CNN or LLMs (Fig.4)
+- `params_vs_accuracy.py` trains multiple LLMs under changing random seeds and aggregates test accuracies (Fig. 2)
 
 `src/moments_accountant/` contains the code used for computing the privacy guarantee epsilon values, given a specific delta and sigma. 
 - `moments_accountant.py` is taken from repository `https://github.com/tensorflow/models/tree/master/research/differential_privacy` which was uploaded by Abadi et al. and which has since been removed
 - `ma_main.py` provides an interface to call the moments calculation functions
-
 
 
 If you have any questions or comments, please don't hesitate to contact [Frederik Harder](https://ei.is.tuebingen.mpg.de/employees/fharder).
