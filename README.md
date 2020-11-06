@@ -1,7 +1,7 @@
 # dp-llm
 
 
-This repository contains an implementation of __Interpretable and Differentially Private Predictions__. The paper by [Frederik Harder](https://ei.is.tuebingen.mpg.de/person/fharder), [Matthias Bauer](https://ei.is.tuebingen.mpg.de/person/bauer) and [Mijung Park](https://ei.is.mpg.de/~mpark) is available at https://arxiv.org/abs/1906.02004 
+This repository contains an implementation of __Interpretable and Differentially Private Predictions__. The paper by [Frederik Harder](https://ei.is.tuebingen.mpg.de/person/fharder), [Matthias Bauer](https://ei.is.tuebingen.mpg.de/person/bauer) and [Mijung Park](https://ei.is.mpg.de/~mpark) was published at AAAI 2020 and is available at https://aaai.org/ojs/index.php/AAAI/article/view/5827 
 
 
 ### Dependencies
